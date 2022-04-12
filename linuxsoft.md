@@ -1,4 +1,4 @@
-## **iif**
+## Main Linux soft
 *atril* -- GUI PDF viewer  
 *eog*, *feh* -- GUI image viewer  
 *vlc*, *mplayer* -- GUI video players  
