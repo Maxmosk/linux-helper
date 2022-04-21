@@ -9,7 +9,7 @@
 *mc*, *ranger* -- console file managers  
 *git* -- version control system  
 
-## Windows manager
+## Window manager
 *Openbox* -- classical
 *i3* -- tilling
 
