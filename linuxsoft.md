@@ -9,7 +9,11 @@
 *mc*, *ranger* -- console file managers  
 *git* -- version control system  
 
-## Window manager
-*Openbox* -- classical
-*i3* -- tilling
+## Window manager and his friends
+*Openbox* -- classical WM  
+*i3* -- tilling WM  
+*lightdm* -- display manager  
+
+## Terminal
+*sakura* -- small terminal emulator  
 
