@@ -8,9 +8,10 @@
 *blueman* -- bluetoorh GUI frontend  
 *mc*, *ranger* -- console file managers  
 *git* -- version control system  
+*xfce4-power-maneger* -- GUI power manager  
 
 ## Window manager and his friends
-*Openbox* -- classical WM  
+*openbox* -- classical WM  
 *i3* -- tilling WM  
 *lightdm* -- display manager  
 
