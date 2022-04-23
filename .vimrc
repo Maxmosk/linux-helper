@@ -9,6 +9,9 @@ map <F3> :NERDTreeToggle<CR>
 
 " GENERAL ------------------------------------------------------------------ {{{
 
+" Enable line numbering
+set number
+
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
