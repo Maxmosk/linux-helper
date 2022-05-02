@@ -1,0 +1,22 @@
+# https://ubunlog.com/ru/nanorc-configura-editor-texto/ 
+# https://andreafortuna.org/2019/09/18/nano-editor-a-configuration-for-code-editing/
+
+include /usr/share/nano-syntax-highlighting/*.nanorc
+
+set linenumbers
+
+set autoindent
+
+set mouse
+
+set tabsize 4
+
+# Make backup in ~ file
+set backup
+
+set tabstospaces
+
+set tabsize 4
+
+set nowrap
+
