@@ -11,7 +11,7 @@
 *git* -- version control system  
 *xfce4-power-maneger* -- GUI power manager  
 
-## Window manager and his friends
+## Window managers and their friends
 *fluxbox*, *blackbox*, *openbox* -- stacking WM  
 *i3*, *awesome*, *icewm* -- tiling WM  
 
