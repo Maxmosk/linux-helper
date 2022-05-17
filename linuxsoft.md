@@ -12,9 +12,8 @@
 *xfce4-power-maneger* -- GUI power manager  
 
 ## Window manager and his friends
-*openbox* -- classical WM  
-*i3* -- tilling WM  
-*lightdm* -- display manager  
+*fluxbox*, *blackbox*, *openbox* -- stacking WM  
+*i3*, *awesome*, *icewm* -- tiling WM  
 
 ## Terminal
 *sakura* -- small terminal emulator  
