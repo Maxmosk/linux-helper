@@ -14,6 +14,7 @@
 ## Window managers and their friends
 *fluxbox*, *blackbox*, *openbox* -- stacking WM  
 *i3*, *awesome*, *icewm* -- tiling WM  
+*lightdm* -- lightweight DM  
 
 ## Terminal
 *sakura* -- small terminal emulator  
