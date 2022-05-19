@@ -6,7 +6,7 @@
 *micro* -- windows shortcuts console text editor  
 *pavucontrol* -- pulseaudio GUI frontend  
 *amixer* -- pulseaudio console frontend  
-*blueman* -- bluetoorh GUI frontend  
+*blueman* -- bluetooth GUI frontend  
 *mc*, *ranger* -- console file managers  
 *git* -- version control system  
 *xfce4-power-maneger* -- GUI power manager  
