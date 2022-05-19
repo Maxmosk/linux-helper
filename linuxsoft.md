@@ -10,6 +10,7 @@
 *mc*, *ranger* -- console file managers  
 *git* -- version control system  
 *xfce4-power-maneger* -- GUI power manager  
+*flameshot* -- screenshoter  
 
 ## Window managers and their friends
 *fluxbox*, *blackbox*, *openbox* -- stacking WM  
