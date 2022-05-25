@@ -21,6 +21,8 @@ set $wlp_cute_2 'Pictures/mregorova_ice.jpg'
 set $wlp_love 'Pictures/tuzya_love.jpg'
 set $wlp_we 'Pictures/maxmosk_mregorova.jpg'
 set $wlp_term 'Pictures/mm_mre_term.jpg'
+set $wlp_lunev 'Pictures/lunev.jpg'
+set $wlp_stass 'Pictures/stass_cute.jpg'
 
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -150,9 +152,9 @@ set $ws10 "10"
 # switch to workspace
 bindsym $mod+1 workspace number $ws1 ; exec "xwallpaper --zoom $wlp"
 bindsym $mod+2 workspace number $ws2 ; exec "xwallpaper --zoom $wlp"
-bindsym $mod+3 workspace number $ws3 ; exec "xwallpaper --zoom $wlp"
+bindsym $mod+3 workspace number $ws3 ; exec "xwallpaper --zoom $wlp_stass"
 bindsym $mod+4 workspace number $ws4 ; exec "xwallpaper --zoom $wlp"
-bindsym $mod+5 workspace number $ws5 ; exec "xwallpaper --zoom $wlp"
+bindsym $mod+5 workspace number $ws5 ; exec "xwallpaper --zoom $wlp_lunev"
 bindsym $mod+6 workspace number $ws6 ; exec "xwallpaper --zoom $wlp_term"
 bindsym $mod+7 workspace number $ws7 ; exec "xwallpaper --zoom $wlp_we"
 bindsym $mod+8 workspace number $ws8 ; exec "xwallpaper --zoom $wlp_love"
@@ -225,8 +227,8 @@ bar {
 #exec i3-config-wizard
 
 # Russian language support
-exec "setxkbmap -layout us,ru"
-exec "setxkbmap -option 'grp:alt_shift_toggle'"
+#exec "setxkbmap -layout us,ru"
+#exec "setxkbmap -option 'grp:alt_shift_toggle'"
 #exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
 
 # Set brightness
