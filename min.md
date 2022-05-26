@@ -16,4 +16,9 @@
 *libreoffice-fresh* -- office suite  
 *texlive-most* -- LaTeX  
 
+## Code
+*gcc* -- main C compiler  
+*binutils* -- developer utils  
+*gdb* -- debugger  
+*make* -- build system  
 
