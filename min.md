@@ -1,4 +1,6 @@
 # Minimal software for ArchLinux
+
+## Musthave
 *vim* -- text editor for code e.t.c.  
 *bluez*, *blueman* -- bluetooth and manager  
 *pavucontrol*, *pipewire*, *pipewire-pulse* -- sound and sound control  
@@ -7,4 +9,11 @@
 *vlc* -- video player  
 *atril* -- PDF viewer  
 *feh* -- image viewer  
+*ly* -- display manager  
+*man-db*, *man-pages*, *texinfo* -- documentation  
+
+## Documents
+*libreoffice-fresh* -- office suite  
+*texlive-most* -- LaTeX  
+
 
