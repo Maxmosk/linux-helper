@@ -11,6 +11,7 @@
 *git* -- version control system  
 *xfce4-power-maneger* -- GUI power manager  
 *flameshot* -- screenshoter  
+*gimp* -- photoeditor
 
 ## Window managers and their friends
 *fluxbox*, *blackbox*, *openbox* -- stacking WM  
