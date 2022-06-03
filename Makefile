@@ -1,10 +1,15 @@
 .PHONY: all install update
 
+
+SHELL := /bin/bash
+
+
 DOTFILES_REPO=dotfiles
 DOTFILES_SYSTEM=~
 
 WALLPAPERS_REPO=wallpapers
 WALLPAPERS_SYSTEM=~/.wlp
+
 
 install: install_wlp install_dot
 
@@ -13,6 +18,7 @@ install_dot: $(DOTFILES_REPO)
 
 install_wlp: $(WALLPAPERS_REPO)
 	@cp -r $(WALLPAPERS_REPO)/* $(WALLPAPERS_SYSTEM)
+
 
 update: update_wlp update_dot
 
