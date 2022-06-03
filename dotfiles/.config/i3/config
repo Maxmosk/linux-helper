@@ -15,14 +15,15 @@ set $mod Mod4
 # Default terminal
 set $term sakura
 
-set $wlp 'Pictures/arch_wlp.jpg'
-set $wlp_cute_1 'Pictures/mregorova.jpg'
-set $wlp_cute_2 'Pictures/mregorova_ice.jpg'
-set $wlp_love 'Pictures/tuzya_love.jpg'
-set $wlp_we 'Pictures/maxmosk_mregorova.jpg'
-set $wlp_term 'Pictures/mm_mre_term.jpg'
-set $wlp_lunev 'Pictures/lunev.jpg'
-set $wlp_stass 'Pictures/stass_cute.jpg'
+set $wlp_dir '.wlp'
+set $wlp '/arch_wlp.jpg'
+set $wlp_cute_1 '/mregorova.jpg'
+set $wlp_cute_2 '/mregorova_ice.jpg'
+set $wlp_love '/tuzya_love.jpg'
+set $wlp_we '/maxmosk_mregorova.jpg'
+set $wlp_term '/mm_mre_term.jpg'
+set $wlp_lunev '/lunev.jpg'
+set $wlp_stass '/stass_cute.jpg'
 
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -150,16 +151,16 @@ set $ws9 "9"
 set $ws10 "10"
 
 # switch to workspace
-bindsym $mod+1 workspace number $ws1 ; exec "xwallpaper --zoom $wlp"
-bindsym $mod+2 workspace number $ws2 ; exec "xwallpaper --zoom $wlp"
-bindsym $mod+3 workspace number $ws3 ; exec "xwallpaper --zoom $wlp_stass"
-bindsym $mod+4 workspace number $ws4 ; exec "xwallpaper --zoom $wlp"
-bindsym $mod+5 workspace number $ws5 ; exec "xwallpaper --zoom $wlp_lunev"
-bindsym $mod+6 workspace number $ws6 ; exec "xwallpaper --zoom $wlp_term"
-bindsym $mod+7 workspace number $ws7 ; exec "xwallpaper --zoom $wlp_we"
-bindsym $mod+8 workspace number $ws8 ; exec "xwallpaper --zoom $wlp_love"
-bindsym $mod+9 workspace number $ws9 ; exec "xwallpaper --zoom $wlp_cute_1"
-bindsym $mod+0 workspace number $ws10 ; exec "xwallpaper --zoom $wlp_cute_2"
+bindsym $mod+1 workspace number $ws1 ; exec "xwallpaper --zoom $wlp_dir$wlp"
+bindsym $mod+2 workspace number $ws2 ; exec "xwallpaper --zoom $wlp_dir$wlp"
+bindsym $mod+3 workspace number $ws3 ; exec "xwallpaper --zoom $wlp_dir$wlp_stass"
+bindsym $mod+4 workspace number $ws4 ; exec "xwallpaper --zoom $wlp_dir$wlp"
+bindsym $mod+5 workspace number $ws5 ; exec "xwallpaper --zoom $wlp_dir$wlp_lunev"
+bindsym $mod+6 workspace number $ws6 ; exec "xwallpaper --zoom $wlp_dir$wlp_term"
+bindsym $mod+7 workspace number $ws7 ; exec "xwallpaper --zoom $wlp_dir$wlp_we"
+bindsym $mod+8 workspace number $ws8 ; exec "xwallpaper --zoom $wlp_dir$wlp_love"
+bindsym $mod+9 workspace number $ws9 ; exec "xwallpaper --zoom $wlp_dir$wlp_cute_1"
+bindsym $mod+0 workspace number $ws10 ; exec "xwallpaper --zoom $wlp_dir$wlp_cute_2"
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
