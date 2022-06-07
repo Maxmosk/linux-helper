@@ -2,4 +2,4 @@
 My configs, dotfiles and other for linux
 
 ## Requirements
-You should have `bash`, `make` and `rsync` in your
+You should have `bash`, `make` and `rsync` in your system
