@@ -1,10 +1,10 @@
+# My user settings
+# -----------------------------------------------
+
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory
-
-# My user settings
-# -----------------------------------------------
 
 # Autocomplition of command line args
 autoload -U compinit
@@ -28,30 +28,14 @@ export PROMPT="%F{green}zsh%1-%f> "
 export RPROMPT='%F{magenta}%T%1-%f'
 export SPROMPT="Error! Would you input %r instead of %R? ([Y]es/[N]o/[E]dit/[A]bort) "
 
-# Default apps
-export EDITOR=vim
-export VIDEOPLAYER=vlc
-export OFFICE=libreoffice
-export DOCVIEWER=atril
-export AUDIOPLAYER=rhythmbox
-
 # Autocorrection
 setopt CORRECT_ALL
 
-# Aliases for file suffixes 
-alias -s avi=$VIDEOPLAYER
-alias -s mpg=$VIDEOPLAYER
-alias -s mp4=$VIDEOPLAYER
-alias -s c=$EDITOR
-alias -s h=$EDITOR
-#alias -s py=$EDITOR
-alias -s md=$EDITOR
-alias -s txt=$EDITOR
-alias -s tex=$EDITOR
-alias -s asm=$EDITOR
-alias -s mp3=$AUDIOPLAYER
-alias -s pdf=$DOCVIEWER
-alias -s djvu=$DOCVIEWER
-
+# Magic hitory search
+autoload -U predict-on
+zle -N predict-on
+zle -N predict-off
+bindkey "^X^Z" predict-on # C-x C-z
+bindkey "^Z" predict-off # C-z
 # -----------------------------------------------
 
