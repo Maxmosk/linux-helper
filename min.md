@@ -22,4 +22,5 @@
 *gdb* - debugger  
 *make* - build system  
 *nasm* - assembler x86  
+*git* - control version  
 
