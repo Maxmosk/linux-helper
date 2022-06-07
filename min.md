@@ -4,7 +4,7 @@
 *sakura*, *xterm* - terminal emulators: main and reserve  
 *vim* - text editor for code e.t.c.  
 *bluez*, *bluez-utils*, *blueman* - bluetooth and manager  
-*pavucontrol*, *pipewire*, *pipewire-pulse* - sound and sound control  
+*alsa-utils*, *pavucontrol*, *pipewire*, *pipewire-pulse* - sound and sound control  
 *bash*, *zsh*, *fish* - command shells  
 *i3-wm*, *i3status*, *i3blocks*, *i3lock*, *dmenu* - window manager and friends  
 *vlc* - video player  
