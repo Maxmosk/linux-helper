@@ -23,8 +23,13 @@ install_vimplugs:
 	git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline # airline
 	vim -c helptags ~/.vim/pack/dist/start/vim-airline/doc -c qall
 	git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/pack/dist/start/vim-airline-themes # airline themes
-	vim -c helptags ~/.vim/pack/dist/start/vim-airline-themes/doc -c qall # NERDTree
-	git clone https://github.com/preservim/nerdtree ~/.vim/pack/dist/start/nerdtree
+	vim -c helptags ~/.vim/pack/dist/start/vim-airline-themes/doc -c qall
+	git clone https://github.com/preservim/nerdtree ~/.vim/pack/dist/start/nerdtree # NERDTree
+	vim -c helptags ~/.vim/pack/dist/start/nerdtree/doc -c qall
+	mkdir -p ~/.vim/pack/tpope/start # vim fugitive
+	cd ~/.vim/pack/tpope/start
+	git clone https://tpope.io/vim/fugitive.git
+	vim -u NONE -c "helptags fugitive/doc" -c q
 
 update: update_wlp update_dot
 
