@@ -11,7 +11,7 @@ WALLPAPERS_REPO=wallpapers
 WALLPAPERS_SYSTEM=~/.wlp
 
 
-install: install_wlp install_dot
+install: install_wlp install_dot install_vimplugs
 
 install_dot: $(DOTFILES_REPO)
 	@cd $(DOTFILES_REPO) && rsync -avz --relative . $(DOTFILES_SYSTEM) && cd ..
@@ -19,6 +19,11 @@ install_dot: $(DOTFILES_REPO)
 install_wlp: $(WALLPAPERS_REPO)
 	@cp -r $(WALLPAPERS_REPO)/* $(WALLPAPERS_SYSTEM)
 
+install_vimplugs:
+	git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline # airline
+	vim -c helptags ~/.vim/pack/dist/start/vim-airline/doc -c qall
+	git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/pack/dist/start/vim-airline-themes # airline themes
+	vim -c helptags ~/.vim/pack/dist/start/vim-airline-themes/doc -c qall
 
 update: update_wlp update_dot
 
