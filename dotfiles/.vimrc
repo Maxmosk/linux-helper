@@ -40,6 +40,9 @@ set expandtab
 " Indent TABs on next line by style of current line
 set smartindent
 
+" Mouse support for some terminals
+set mouse=a
+
 " Indent TABs on next line by style of current line for C-like code
 ":set cindent
 
