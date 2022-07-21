@@ -32,6 +32,7 @@ install_vimplugs:
 update: update_wlp update_dot
 
 update_wlp: $(WALLPAPERS_SYSTEM)
+	mkdir -p $(WALLPAPERS_SYSTEM)
 	cp -r $(WALLPAPERS_SYSTEM)/* $(WALLPAPERS_REPO)
 
 update_dot: $(DOTFILES_REPO)

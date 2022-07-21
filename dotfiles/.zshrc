@@ -37,5 +37,8 @@ zle -N predict-on
 zle -N predict-off
 bindkey "^X^Z" predict-on # C-x C-z
 bindkey "^Z" predict-off # C-z
+
+# Alias helper
+alias ls="ls --color=auto"
 # -----------------------------------------------
 
